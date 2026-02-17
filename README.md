@@ -32,11 +32,6 @@ If you see "password authentication failed", the volume may have been created wi
 ```bash
 cd backend
 npm install
-# Copy backend/.env.example to backend/.env.development.local and set:
-#   DATABASE_URL=postgresql://subtrack:subtrack_secret@localhost:5432/subscription_tracker
-#   JWT_SECRET=your-secret
-#   JWT_EXPIRES_IN=7d
-#   FRONTEND_URL=http://localhost:3000  (optional)
 npm run dev
 ```
 
@@ -47,7 +42,6 @@ API runs at **http://localhost:5000**.
 ```bash
 cd frontend
 npm install
-# Optional: frontend/.env.local with NEXT_PUBLIC_API_URL=http://localhost:5000
 npm run dev
 ```
 
